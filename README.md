@@ -39,8 +39,10 @@ Use [Visual Studio Code](https://code.visualstudio.com/) for the intended Markdo
 
 Shared profile:
 
-- [Open the ChatGPT Study Loop profile in VS Code](https://vscode.dev/editor/profile/github/c6997f0e6d8dee7b9d7be6d868520532)
-- [Review the source profile Gist](https://gist.github.com/olafBobryk/c6997f0e6d8dee7b9d7be6d868520532)
+- [Open the ChatGPT Study Loop profile import page](https://vscode.dev/editor/profile/github/c6997f0e6d8dee7b9d7be6d868520532)
+- [Review the source profile Gist](https://gist.github.com/olafBobryk/c6997f0e6d8dee7b9d7be6d868520532) if you want to inspect the profile file. The Gist page is source code only and has no import button.
+
+When the profile import page opens in `vscode.dev`, choose `Import Profile in Visual Studio Code` to open the desktop import flow, then confirm `Import Profile`. If you stay in the web editor, use the cloud/download buttons to install the listed extensions there.
 
 Recommended extensions:
 
@@ -50,7 +52,7 @@ Recommended extensions:
 - [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 - [Office Viewer](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office)
 
-To import the shared profile seed, open VS Code and run `Profiles: Import Profile...`, then select `vscode-profiles/chatgpt-study/chatgpt-study.code-profile`.
+Local fallback: open VS Code and run `Profiles: Import Profile...`, then select `vscode-profiles/chatgpt-study/chatgpt-study.code-profile`.
 
 ## Included Skills
 
