@@ -2,7 +2,7 @@
 
 ![Document Study Loop banner](assets/document-study-loop-banner.png)
 
-Document Study Loop helps you study from real course or work documents without losing context between chats. Your PDFs, slides, notes, and rubrics stay local; agents create Markdown practice runs, you answer in files, and each graded run updates a durable study ledger.
+Add slides, course documents, notes, practice exams, and exam rubrics; initialize the agent; then work through Markdown practice runs generated from that material. Each run is graded with scores and topic statuses, so you revise weak areas, close completed topics, open new ones, and repeat.
 
 A lightweight template for file-based study with agents.
 
