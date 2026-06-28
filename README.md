@@ -2,7 +2,9 @@
 
 ![Document Study Loop banner](assets/document-study-loop-banner.png)
 
-A lightweight template for file-based study with agents. It turns local PDFs, slides, notes, transcripts, and rubrics into durable Markdown answer sheets, graded runs, and study ledgers.
+Document Study Loop helps you study from real course or work documents without losing context between chats. Your PDFs, slides, notes, and rubrics stay local; agents create Markdown practice runs, you answer in files, and each graded run updates a durable study ledger.
+
+A lightweight template for file-based study with agents.
 
 The repo is intentionally blank by default. Clone it, give an agent the setup prompt, add your own local source documents, and start a new loop.
 
