@@ -1,6 +1,0 @@
-{
-  "name": "ChatGPT Study Loop",
-  "settings": "{\"settings\":\"{\\n  \\\"workbench.editorAssociations\\\": {\\n    \\\"*.md\\\": \\\"vscode.markdown.preview.editor\\\"\\n  },\\n  \\\"vscode-office.editorTheme\\\": \\\"Github Dark\\\",\\n  \\\"vscode-office.previewCodeHighlight.style\\\": \\\"github-dark\\\",\\n  \\\"vscode-office.hideToolbar\\\": false,\\n  \\\"vscode-office.openOutline\\\": false\\n}\"}",
-  "keybindings": "[{\"key\":\"cmd+shift+m\",\"command\":\"markdown-editor.openEditor\",\"when\":\"editorLangId == markdown\"},{\"key\":\"cmd+alt+m\",\"command\":\"markdown-preview-enhanced.openPreviewToTheSide\",\"when\":\"editorLangId == markdown\"}]",
-  "extensions": "[{\"identifier\":{\"id\":\"tomoki1207.pdf\"},\"displayName\":\"vscode-pdf\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"shd101wyy.markdown-preview-enhanced\"},\"displayName\":\"Markdown Preview Enhanced\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"yzhang.markdown-all-in-one\"},\"displayName\":\"Markdown All in One\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"zaaack.markdown-editor\"},\"displayName\":\"Markdown Editor\",\"applicationScoped\":false},{\"identifier\":{\"id\":\"cweijan.vscode-office\"},\"displayName\":\"Office Viewer(Markdown Editor)\",\"applicationScoped\":false}]"
-}
