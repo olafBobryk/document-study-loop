@@ -20,8 +20,9 @@ exam-revision/source/*
 local-private/
 local-source/
 
-# Local/editor state
-.vscode/
+# Local/editor state. Keep shared extension recommendations tracked.
+.vscode/*
+!.vscode/extensions.json
 .idea/
 
 # Secrets/local env

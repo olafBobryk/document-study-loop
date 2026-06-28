@@ -33,6 +33,20 @@ cd my-study-loop
 
 **Continue this existing Document Study Loop. Read `AGENTS.md` and `skills/document-study-loop-continue/SKILL.md` first. Summarize the current active runs, completed runs, source maps, and study ledgers. If an answer sheet is ready, grade it in place; otherwise propose the next Markdown run. Do not treat `examples/` as live study state.**
 
+## Recommended Editor
+
+Use [Visual Studio Code](https://code.visualstudio.com/) for the intended Markdown file workflow. The template includes VS Code extension recommendations and a lightweight profile seed at `vscode-profiles/chatgpt-study/chatgpt-study.code-profile`.
+
+Recommended extensions:
+
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor)
+- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+- [Office Viewer](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office)
+
+To import the shared profile seed, open VS Code and run `Profiles: Import Profile...`, then select `vscode-profiles/chatgpt-study/chatgpt-study.code-profile`.
+
 ## Included Skills
 
 ![Skills overview](assets/skills-overview.png)

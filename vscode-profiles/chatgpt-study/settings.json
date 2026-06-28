@@ -1,0 +1,9 @@
+{
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "vscode-office.editorTheme": "Github Dark",
+  "vscode-office.previewCodeHighlight.style": "github-dark",
+  "vscode-office.hideToolbar": false,
+  "vscode-office.openOutline": false
+}

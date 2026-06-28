@@ -1,0 +1,5 @@
+tomoki1207.pdf@1.2.2
+shd101wyy.markdown-preview-enhanced@0.8.30
+yzhang.markdown-all-in-one@3.6.3
+zaaack.markdown-editor@0.1.16
+cweijan.vscode-office@4.0.7

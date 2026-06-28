@@ -1,0 +1,12 @@
+[
+  {
+    "key": "cmd+shift+m",
+    "command": "markdown-editor.openEditor",
+    "when": "editorLangId == markdown"
+  },
+  {
+    "key": "cmd+alt+m",
+    "command": "markdown-preview-enhanced.openPreviewToTheSide",
+    "when": "editorLangId == markdown"
+  }
+]
