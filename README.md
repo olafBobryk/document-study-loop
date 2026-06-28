@@ -37,6 +37,11 @@ cd my-study-loop
 
 Use [Visual Studio Code](https://code.visualstudio.com/) for the intended Markdown file workflow. The template includes VS Code extension recommendations and a lightweight profile seed at `vscode-profiles/chatgpt-study/chatgpt-study.code-profile`.
 
+Shared profile:
+
+- [Open the ChatGPT Study Loop profile in VS Code](https://vscode.dev/editor/profile/github/c6997f0e6d8dee7b9d7be6d868520532)
+- [Review the source profile Gist](https://gist.github.com/olafBobryk/c6997f0e6d8dee7b9d7be6d868520532)
+
 Recommended extensions:
 
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
