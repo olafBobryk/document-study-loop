@@ -1,0 +1,36 @@
+.DS_Store
+
+# Raw/private source material. Keep README and placeholders tracked.
+exam-revision/source/*
+!exam-revision/source/README.md
+!exam-revision/source/.gitkeep
+*.pdf
+*.ppt
+*.pptx
+*.key
+*.zip
+*.7z
+*.rar
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# Local/private workspaces
+local-private/
+local-source/
+
+# Local/editor state
+.vscode/
+.idea/
+
+# Secrets/local env
+.env
+.env.*
+!.env.example
+
+# Generated caches
+node_modules/
+__pycache__/
+.cache/
+tmp/

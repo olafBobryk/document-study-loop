@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Study Loop Setup"
+  short_description: "Set up reusable file-based document study loops."
+  default_prompt: "Set up this repository as a new Document Study Loop. Read AGENTS.md and the setup skill first. Keep raw source documents out of Git, create Markdown run and ledger workflows, and treat examples as reference-only."
