@@ -8,11 +8,41 @@ The repo is intentionally blank by default. Clone it, give an agent the setup pr
 
 ## Instant Setup
 
-Copy this prompt into Codex or another coding agent:
+Template repository: [https://github.com/olafBobryk/document-study-loop](https://github.com/olafBobryk/document-study-loop)
+
+### First-Time Bootstrap
+
+Copy this prompt into Codex or another coding agent when you have not cloned the template yet:
+
+**Create a new Document Study Loop from `https://github.com/olafBobryk/document-study-loop`. Use environment variables when available: `STUDY_LOOP_DIR` for the local destination, `STUDY_LOOP_GITHUB_OWNER` and `STUDY_LOOP_GITHUB_REPO` for my own GitHub repository, and `STUDY_LOOP_VISIBILITY` for `private` or `public` visibility. Clone the template repo, rename its `origin` remote to `template`, create or connect my own Git remote if those GitHub variables are set, then read `AGENTS.md` and `skills/document-study-loop-setup/SKILL.md`. Set up a Git-safe local study workflow for my documents. Keep raw PDFs, slide decks, archives, secrets, and local editor state out of Git. Use Markdown run files in `exam-revision/runs/active/`, preserve answers when grading, update the study ledger, and treat `examples/` as reference material only.**
+
+Equivalent shell-first setup:
+
+```sh
+export STUDY_LOOP_TEMPLATE_URL="https://github.com/olafBobryk/document-study-loop.git"
+export STUDY_LOOP_DIR="${STUDY_LOOP_DIR:-$HOME/document-study-loop}"
+
+git clone "$STUDY_LOOP_TEMPLATE_URL" "$STUDY_LOOP_DIR"
+cd "$STUDY_LOOP_DIR"
+git remote rename origin template
+
+# Optional: create your own GitHub repo for this loop.
+# Defaults to private for personal study material.
+export STUDY_LOOP_VISIBILITY="${STUDY_LOOP_VISIBILITY:-private}"
+if [ -n "$STUDY_LOOP_GITHUB_OWNER" ] && [ -n "$STUDY_LOOP_GITHUB_REPO" ]; then
+  gh repo create "$STUDY_LOOP_GITHUB_OWNER/$STUDY_LOOP_GITHUB_REPO" \
+    "--$STUDY_LOOP_VISIBILITY" \
+    --source=. \
+    --remote=origin \
+    --push
+fi
+```
+
+### Already Cloned
 
 **Set up this repository as a new Document Study Loop. Read `AGENTS.md` and `skills/document-study-loop-setup/SKILL.md` first. Create a Git-safe local study workflow for my documents. Keep raw PDFs, slide decks, archives, secrets, and local editor state out of Git. Use Markdown run files in `exam-revision/runs/active/`, preserve answers when grading, update the study ledger, and treat `examples/` as reference material only.**
 
-For a new chat in an already initialized loop, copy this prompt:
+### Continue Existing Loop
 
 **Continue this existing Document Study Loop. Read `AGENTS.md` and `skills/document-study-loop-continue/SKILL.md` first. Summarize the current active runs, completed runs, source maps, and study ledgers. If an answer sheet is ready, grade it in place; otherwise propose the next Markdown run. Do not treat `examples/` as live study state.**
 
