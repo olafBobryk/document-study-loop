@@ -9,7 +9,12 @@ It mirrors the local VS Code `ChatGPT` profile and includes:
 - Markdown keybindings for editor and preview workflows
 - the profile's current viewer settings
 
-Import `olaf-chatgpt-vscode.code-profile` from VS Code with:
+Shared profile:
+
+- [Open Olaf's ChatGPT VS Code profile import page](https://vscode.dev/profile/github/f9e31820aad05579cdeed029e898bf53)
+- [Review the source profile Gist](https://gist.github.com/olafBobryk/f9e31820aad05579cdeed029e898bf53)
+
+Local fallback: import `olaf-chatgpt-vscode.code-profile` from VS Code with:
 
 1. Open VS Code.
 2. Run `Profiles: Import Profile...`.

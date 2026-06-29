@@ -39,8 +39,8 @@ Use [Visual Studio Code](https://code.visualstudio.com/) for the intended Markdo
 
 Shared profile:
 
-- [Open Olaf's ChatGPT VS Code profile import page](https://vscode.dev/editor/profile/github/c6997f0e6d8dee7b9d7be6d868520532)
-- [Review the source profile Gist](https://gist.github.com/olafBobryk/c6997f0e6d8dee7b9d7be6d868520532) if you want to inspect the profile file. The Gist page is source code only and has no import button.
+- [Open Olaf's ChatGPT VS Code profile import page](https://vscode.dev/profile/github/f9e31820aad05579cdeed029e898bf53)
+- [Review the source profile Gist](https://gist.github.com/olafBobryk/f9e31820aad05579cdeed029e898bf53) if you want to inspect the exported profile file. The Gist page is source code only and has no import button.
 
 When the profile import page opens in `vscode.dev`, choose `Import Profile in Visual Studio Code` to open the desktop import flow, then confirm `Import Profile`. If you stay in the web editor, use the cloud/download buttons to install the listed extensions there.
 
